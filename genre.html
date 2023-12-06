@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+        
+    
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styleschethan2.css" />
+
+    <title>Musichaos</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">Musichaos</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Musichaos</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="/home.html" class="home">Home</a></li>
+                    <li><a href="/genre.html" class="genre" style="color: aqua;">Genre</a></li>
+                    <li><a href="/about.html" class="about">About</a></li>
+                    <li><a href="/login.html" class="login">login</a></li>
+                  </ul>
+            </div>
+
+         
+              
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="playlist-section">
+        <div class="container">
+          <div>
+           
+            <div class="search-genere-title">
+              Tap to get your playlist
+           
+            </div>
+            
+            <!-- <div>
+              <input type="text" class="search-bar"  placeholder="Enter your favourite Genre">
+            </div>  -->
+  
+           <div class="butt" > 
+            <button class="search-btn" >Search</button>
+          </div> 
+          </div>
+          <div class="playlist"></div>
+        </div>
+      </section>
+
+   
+      <div class="player hidden">
+        <input type="range" class="range" min="0" value="0" max="100">
+        <div class="controle">
+        <ion-icon name="play-skip-back-outline" class="prevBtn"></ion-icon>
+        <ion-icon name="play-outline" class="playBtn hidden"></ion-icon>
+        <ion-icon name="pause-outline" class="pauseBtn"></ion-icon>
+        
+  
+        <ion-icon name="play-skip-forward-outline" class="nextBtn"></ion-icon>
+        </div>
+        
+        <div class="musictitle">
+          
+        </div>
+        <!-- <input type="range" class="range" min="0" value="0" max="100"> -->
+      </div>
+      <section class="albums-section">
+        <div class="albums-container">
+          <div class="album gradient-1" onclick="genrepass('lofi beats');"></div>
+          <div class="album gradient-2" onclick="genrepass('sunny beats');"></div>
+          <div class="album gradient-3" onclick="genrepass('trap');"></div>
+          <div class="album gradient-4" onclick="genrepass('vintage beats');"></div>
+          <div class="album gradient-5" onclick="genrepass('acoustic');" ></div>
+          <div class="album gradient-6" onclick="genrepass('ambient');"></div>
+          <div class="album gradient-7" onclick="genrepass('classical');"></div>
+          <div class="album gradient-8" onclick="genrepass('electronic');"></div>
+          <div class="album gradient-9" onclick="genrepass('jazzy');"></div>
+          <div class="album gradient-10" onclick="genrepass('hip hop beats');"></div>
+          <div class="album gradient-11" onclick="genrepass('pop');"></div>
+          <div class="album gradient-12" onclick="genrepass('rock');"></div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <section class="footer-section">
+        <div class="container">
+          <div class="col-1">
+            <div class="logo"></div>
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i
+              ><i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="copyright">
+              Copyright &copy; by Musichaos,Inc.All rights reserved
+            </div>
+          </div>
+          <div class="col-2">
+            <p class="col-head">Contact us</p>
+            <div class="contact-col">
+              <address class="address">
+                Atria Institue of Technology, Anand nagar, Hebbal, Bangalore
+              </address>
+              <a href="tel:8792182828" class="tel">8792182828</a>
+              <a href="mailto:sample@gmail.com" class="mail"
+                >musichaos@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="col-head">Account</div>
+            <ul class="footer-nav">
+              <li><a href="#">Create account</a></li>
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">iOS app</a></li>
+              <li><a href="#">Android app</a></li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <div class="col-head">Company</div>
+            <ul class="footer-nav">
+              <li><a href="#">About Music Chaos</a></li>
+              <li><a href="#">For Business</a></li>
+              <li><a href="#">Music patners</a></li>
+              <li><a href="#">Carrers</a></li>
+            </ul>
+          </div>
+          <div class="col-5">
+            <div class="col-head">Resources</div>
+            <ul class="footer-nav">
+              <li><a href="#">Non copyright songs</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Privacy &amp; terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <script src="datajs.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <!-- <script src="datache.js"></script> -->
+    <script src="scriptchethan.js"></script>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>

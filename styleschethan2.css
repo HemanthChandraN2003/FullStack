@@ -1,0 +1,669 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 62.7%;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgb(21, 25, 25);
+  color: white;
+}
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.subhead{
+  padding-top: 10px;
+  font-size: medium;
+  text-align: center;
+}
+/**************************************/
+/**********Generes Section*************/
+/**************************************/
+.albums-section {
+  max-height: 202vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.albums-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 95%;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* margin: 0px 60px 60px 0px; */
+}
+
+.album {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.album:hover {
+  transform: translateY(-14px);
+}
+
+.gradient-1 {
+  background-image: url("Generes pics/UppBeat_Playlists_Beats_Lofi-Beats.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-2 {
+  background-image: url("Generes pics/UppBeat_Playlists_Beats_Sunny-Beats.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-3 {
+  background-image: url("Generes pics/UppBeat_Playlists_Beats_Trap.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-4 {
+  background-image: url("Generes pics/UppBeat_Playlists_Beats_vintage-beats.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-5 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Acoustic.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-6 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Ambient.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-7 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Classical.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-8 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Electronic.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-9 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Jazzy.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-10 {
+  background-image: url("Generes pics/UppBeat_Playlists_Beats_hip-hop-beats.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-11 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Pop.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+.gradient-12 {
+  background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Rock.avif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 187px;
+  height: 187px;
+}
+
+/**************************************/
+/************About Section*************/
+/**************************************/
+.about-section {
+  /* height: 70vh; */
+  min-height: 70vh;
+  
+  padding-top: 5%;
+  padding-bottom: 50px;
+  
+
+
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  background-color: rgb(35, 37, 37);
+  border-radius: 2rem;
+  width: 80%;
+ 
+}
+.about-title {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.about-title {
+  text-align: center;
+}
+.down {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: rgb(128, 128, 128);
+}
+.item {
+  
+  padding: 2.8rem;
+  font-size: 1.8rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(91, 91, 91);
+  cursor: pointer;
+  border-radius: 1.2rem;
+}
+.hidden-box {
+
+  cursor: text;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  word-spacing: 1px;
+}
+.bullet {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(242, 61, 117);
+  margin-right: 30px;
+}
+.hidden-box {
+  display: none;
+  grid-column: 2;
+  margin-top: 20px;
+  color: rgb(190, 198, 198);
+  font-weight: 400;
+}
+.active {
+  display: block;
+}
+.active-color {
+  background-color: rgb(50, 52, 52);
+}
+/**************************************/
+/************Footer Section*************/
+/**************************************/
+.footer-section {
+  height: 45vh;
+  font-size: 1.6rem;
+  border-top: 1px solid rgb(70, 70, 70);
+  padding-top: 5%;
+}
+.footer-section .container {
+  /* display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr; */
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  max-width: 90%;
+}
+ul {
+  list-style-type: none;
+}
+.mail:link,
+.tel:link {
+  color: white;
+  margin-bottom: 10px;
+}
+.social {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.footer-section a:link,
+.footer-section a:visited,
+.footer-section a:active {
+  display: block;
+  color: white;
+}
+.address {
+  margin-bottom: 30px;
+  display: inline-block;
+  font-style: none;
+}
+.col-head {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+.footer-section li {
+  margin-bottom: 1rem;
+}
+.footer-section a:link {
+  text-decoration: none;
+}
+.col-1{
+  width:204px;
+}
+.col-2{
+  width: 204px
+}
+.col-3{
+  min-width: 204px
+}
+.col-4{
+  min-width: 204px
+}
+.col-5{
+  min-width:204px;
+}
+
+
+
+/**************************************/
+/************PLaylist Section*************/
+/**************************************/
+.playlist-section {
+  padding-top: 100px;
+}
+.playlist {
+  /* max-width: 620px; */
+  width: 85%;
+  max-height: 120vh;
+  margin-top: 6rem;
+}
+/* .playlist {
+  overflow-y: scroll;
+  min-height: auto;
+  max-height: 20rem;
+  border: 1px solid white;
+} */
+.playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.song {
+  display: grid;
+  grid-template-columns: 6fr 2fr 1fr 1fr;
+ 
+  gap: 3rem;
+  background-color: rgb(35, 37, 37);
+  padding: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-items: start;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.song:hover {
+  opacity: 0.8;
+}
+.left-section div,
+.song-name {
+  display: inline-block;
+}
+.left-section {
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.artist .duration,
+.add-playlist {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.search-genere-title {
+  font-size: 5rem;
+  font-weight: 600;
+  font-style: normal;
+}
+.search-bar {
+ height: 0px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 1.8rem;
+  border-radius: 3rem;
+  outline: none;
+  font-size: 1.8rem;
+  display: block;
+  margin: 8rem auto;
+  overflow: hidden;
+}
+
+.search-genere-btn {
+  background-color: transparent;
+  border: none;
+  top: 0;
+  right: 0;
+  display: absolute;
+}
+.search-btn {
+  width: 8rem;
+  padding: 1rem;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+/*cb's code don't you fucking touch it */
+
+.division {
+  border: black solid 2px;
+}
+
+.playlist-1 {
+  background-color: aqua;
+}
+
+.playlist-2 {
+  background-color: pink;
+}
+
+.playlist-3 {
+  background-color: yellow;
+}
+
+.playlist-4 {
+  background-color: greenyellow;
+}
+
+.playlist-5 {
+  background-color: rgb(186, 48, 48);
+}
+
+.playlist-6 {
+  background-color: orange;
+}
+
+.playlist-7 {
+  background-color: rgb(255, 0, 251);
+}
+
+.playlist-8 {
+  background-color: rgb(255, 153, 0);
+}
+
+@media only screen and (max-width: 700px) {
+
+  .creator{
+   font-size: small;
+  }
+  .song-name{
+    font-size: medium;
+  }
+  .song{
+    gap: 1rem;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .col-1{
+    width:154px;
+  }
+  .col-2{
+    width: 154px
+  }
+  .col-3{
+    min-width: 154px
+  }
+  .col-4{
+    min-width: 104px
+  }
+  .col-5{
+    min-width:104px;
+  }
+
+
+  .albums-container{
+    width: 90%;
+  }
+
+   
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 584px) {
+
+  .creator{
+   font-size: 0px;
+  }
+  .song-name{
+    font-size: medium;
+  }
+  .song{
+    gap: 1rem;
+  }
+
+
+
+}
+@media only screen and (max-width: 584px) {
+
+  .creator{
+   font-size: 0px;
+  }
+  .song-name{
+    font-size: small;
+  }
+  .song{
+    gap: 0.1rem;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 460px) {
+
+
+  .gradient-1 {
+    background-image: url("Generes pics/UppBeat_Playlists_Beats_Lofi-Beats.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-2 {
+    background-image: url("Generes pics/UppBeat_Playlists_Beats_Sunny-Beats.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-3 {
+    background-image: url("Generes pics/UppBeat_Playlists_Beats_Trap.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-4 {
+    background-image: url("Generes pics/UppBeat_Playlists_Mood_Dramatic.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-5 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Acoustic.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+
+  .gradient-6 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Ambient.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-7 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Classical.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-8 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Electronic.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-9 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Jazzy.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-10 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Percussion.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-11 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Pop.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+  .gradient-12 {
+    background-image: url("Generes pics/UppBeat_Playlists_Music-Style_Rock.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 140px;
+    height: 140px;
+  }
+
+}
+
+.search-btn{
+  opacity: 0;
+}
+
+ion-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 3.6rem;
+  
+}
+.player {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(35, 37, 37);
+  height: 13rem;
+  /* border-radius: 10px; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+
+.range{
+  width: 90%;
+  height: 40px;
+ background-color: aqua;
+}
+
+
+
+.controle{
+  width: 250px;
+  height: 70px;
+  position: relative;
+  left: 28%;
+}
+.musictitle{
+  position: relative;
+  top: -12px;
+  font-size: large;
+  width: 120px;
+}
+
+
+ion-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 3.6rem;
+  
+}
+.player {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(35, 37, 37);
+  height: 13rem;
+  /* border-radius: 10px; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
