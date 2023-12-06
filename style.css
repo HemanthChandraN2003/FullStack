@@ -194,3 +194,21 @@ nav .nav-bar .logo a{
         margin-top: 20px;
     }
 }
+.about-section{
+    color:white;
+    font-size: 1rem;
+    margin-top:90px;
+}
+
+.about-section p{
+    margin-top: 10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 45px;
+}
+
+.about-section h1{
+    margin-top: 10px;
+    margin-left:20px;
+    color:aqua;
+}
